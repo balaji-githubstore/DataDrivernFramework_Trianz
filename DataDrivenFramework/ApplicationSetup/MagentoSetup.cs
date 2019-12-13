@@ -34,6 +34,7 @@ namespace DataDrivenFramework
         [OneTimeSetUp]
         public void Init()
         {
+            //to avoid unnecessary update on each class intialization
             if (extent == null)
             {
                 //path = @"D:\Mine\Company\Trianz\DataDrivenFramework\DataDrivenFramework\Reports\magentoreport.html";

@@ -20,8 +20,6 @@ namespace DataDrivenFramework
         [Test,Category("valid")]
         public void ValidCredentialTest()
         {
-           // test = extent.CreateTest("ValidCredentialTest");
-
             try
             {
                 HomePage home = new HomePage(driver);
@@ -49,9 +47,6 @@ namespace DataDrivenFramework
             }
 
         }
-
-        //bala@gmail.com, bala123
-        //john@gmail.com,john@123
 
         //[TestCase("bala@gmail.com","bala123")]
         //[TestCase("john@gmail.com", "john@123")]
