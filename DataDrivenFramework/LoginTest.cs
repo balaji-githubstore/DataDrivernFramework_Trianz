@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Trianz.MagentoPages;
-//using Trianz.ApplicationSetup;
 using System.Collections.ObjectModel;
 using AventStack.ExtentReports;
 
