@@ -22,7 +22,6 @@ namespace DataDrivenFramework
         public IWebDriver driver;
         public WebDriverWait wait;
 
-
         public static ExtentReports extent;
         public static ExtentTest test;
 
