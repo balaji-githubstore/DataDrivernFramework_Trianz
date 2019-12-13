@@ -17,19 +17,17 @@ using Trianz.DataUtlis;
 
 namespace DataDrivenFramework
 {
+
     class MagentoSetup
     {
         public IWebDriver driver;
         public WebDriverWait wait;
-
 
         public static ExtentReports extent;
         public static ExtentTest test;
 
         public static string screenShotPath;
         public static string path;
-
-
 
         [OneTimeSetUp]
         public void Init()
